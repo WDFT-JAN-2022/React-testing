@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Greet from "./components/Greet";
+import RandomNumber from "./components/RandomNumber";
+import Count from "./components/Count";
+import InputName from "./components/InputName";
+import Signup from "./components/Signup";
 
 function App() {
+  //Until the return, all of this space is raw JS
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count />
+      <InputName />
+      <Signup />
     </div>
   );
 }

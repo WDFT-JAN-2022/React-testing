@@ -5,7 +5,7 @@ import RandomNumber from "./components/RandomNumber";
 import Count from "./components/Count";
 import InputName from "./components/InputName";
 import Signup from "./components/Signup";
-import ColorList from "./components/ColorList";
+import ColorList from "./components/colorListComponents/ColorList";
 
 function App() {
   //Until the return, all of this space is raw JS
